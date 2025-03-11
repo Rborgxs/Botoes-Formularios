@@ -1,0 +1,57 @@
+form{
+    margin: 20px 40px 20px 20px;
+}
+
+#msg_bemvindo{
+    text-align: justify;
+    margin: 20px 40px 20px 20px;
+}
+
+#msg_bemvindo h1{
+    text-align: center;
+    color: rgb(55, 14, 90);
+}
+
+#msg_bemvindo p{
+    color: rgb(78, 78, 78);
+}
+
+#botao1{
+    background-color: rgb(88, 29, 143);
+    border: 1px gray;
+}
+#botao2{
+    font-size: 30px;  
+    margin: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(88, 29, 143);
+    color: white;
+    font-family: Segoe UI;
+}
+
+#botao1:hover, #botao2:hover{
+    font-weight: 600;
+    color: rgb(80, 18, 134);
+    background-color: white;
+    border: solid rgb(88, 29, 143) 1px;
+    transition: 200ms linear;
+}
+
+#link{
+    color: rgb(88, 88, 88);
+    margin-left: 10px;
+}
+
+#link:visited{
+    color: white;
+}
+
+#link:active{
+    color: rgb(200, 141, 255);
+}
+
+#nav-home-tab, #nav-profile-tab, #nav-contact-tab{
+    color: rgb(88, 29, 143);
+    font-weight: 500;
+}
